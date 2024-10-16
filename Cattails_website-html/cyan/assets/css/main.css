@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,100");
-@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,300,&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Concert+One:400,300,&display=swap")
+@import url("/assets/css/fontawesome-all.min.css");
 
-/*
-	Concentric by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -98,11 +95,11 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Concert-One', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888787;
+		color: whitesmoke;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1761,7 +1758,7 @@ input, select, textarea {
 
 			ul.alt > li {
 				display: block;
-				border-top: solid 1px #aaa;
+                border-top: solid 1px #aaa;
 				border-top-color: rgba(0, 0, 0, 0.1);
 				line-height: 2.5em;
 				padding-left: 0;
@@ -2249,6 +2246,7 @@ input, select, textarea {
 
 	#logo a {
 		display: block;
+        padding: 2rem;
 		letter-spacing: 1px;
 		font-size: 1.25em;
 		font-weight: 300;
@@ -2360,11 +2358,11 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		padding: 10em 0 9em 0;
-		background: #333 url(../../images/pic01.jpg) no-repeat center;
-		background-size: cover;
-		text-align: center;
-		color: #fff;
+        display: flex;
+		padding: 10%;
+        border: 2rem solid whitesmoke;
+		background: #333;
+		width: 100%;
 	}
 
 		#banner:after {
@@ -2405,6 +2403,11 @@ input, select, textarea {
 			position: relative;
 			z-index: 1;
 		}
+
+        #banner img {
+            width: 97%;
+            height: auto;
+            }
 
 /* Main */
 
@@ -2542,12 +2545,14 @@ input, select, textarea {
 			box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1);
 		}
 
-			#footer header h2 {
-				color: #56c9d6;
+			#footer h2 {
+				color: whitesmoke;
+                text-align: center;
 			}
 
 		#footer ul.alt li {
-			border-top-color: #403E3E;
+                border-color: #888787;
+		        color:  whitesmoke;
 		}
 
 /* Copyright */
@@ -2556,6 +2561,7 @@ input, select, textarea {
 		display: block;
 		padding: 1em 0em;
 		text-align: center;
+        color: whitesmoke;
 	}
 
 /* Wide */
@@ -2737,7 +2743,6 @@ input, select, textarea {
 							font-weight: 100;
 							font-size: 0.80em;
 							outline: 0;
-							color: #FFF;
 						}
 
 			.dropotron.level-0 {
@@ -2948,7 +2953,7 @@ input, select, textarea {
 
 				#navPanel .link {
 					display: block;
-					color: #888;
+					color: whitesmoke;
 					text-decoration: none;
 					height: 44px;
 					line-height: 44px;
@@ -3110,6 +3115,6 @@ input, select, textarea {
 
 			#footer {
 				padding: 2em 0em 2em 0em;
-			}
+                			}
 
 	}
