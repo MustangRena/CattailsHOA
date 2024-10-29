@@ -2419,6 +2419,7 @@ input, select, textarea {
 		position: relative;
 		padding: 5em 0em 5em 0em;
 		background: #fff;
+        color: #888787;
 	}
 
 		#main h3 {
@@ -2435,6 +2436,22 @@ input, select, textarea {
 			padding-top: 1em;
 		}
 
+/* Google Map */
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
 /* Sidebar */
 
 	#sidebar section, #sidebar2 section {
