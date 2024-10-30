@@ -2527,11 +2527,12 @@ input, select, textarea {
 
 	#tweets {
 		position: relative;
-		padding: 8em 0em;
-		background: #fff url(../../images/pic02.jpg) no-repeat center;
-		background-size: cover;
+		padding: 4em 0em;
+        background-color: #888787;
 		text-align: center;
 		color: #FFF;
+        
+        
 	}
 
 		#tweets .tweet {
