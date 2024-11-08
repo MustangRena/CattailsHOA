@@ -18,7 +18,21 @@
 			mobile:     [ null,      '736px'  ]
 		});
 
-	// Play initial animations on page load.
+	// Google maps.
+document.addEventListener("DOMContentLoaded", function(){
+    const latitude = 34.9905110847776
+    const longitude = 85.1044105071409
+    const directionsLink = 'https://www.google.com/maps/dir/?api=1&destination=$34.9905110847776",$-85.1044105071409';
+
+    const directionsIcon = document.getElementById('direction-icon');
+    if (directionsIcon) {
+        directionsIcon.href = directionsLink;
+    } else {
+        console.error("Element with ID 'directions-icon' not found.");
+    }
+})
+    
+        // Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
