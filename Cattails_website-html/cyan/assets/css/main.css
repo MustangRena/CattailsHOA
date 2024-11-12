@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,100");
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,300,&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Concert+One:400,300,&display=swap")
+@import url("https://fonts.googleapis.com/css?family=Concert+One:400,300,&display=swap");
 @import url("/assets/css/fontawesome-all.min.css");
 
 
@@ -96,6 +96,7 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		font-family: 'Concert-One', sans-serif;
+        font-display: optional;
 		font-size: 15pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -1711,17 +1712,20 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+            height: auto;
 		}
 
 		.image.featured {
 			display: block;
 			width: 100%;
+            height: auto;
 			margin: 0 0 2em 0;
 		}
 
 		.image.full {
 			display: block;
 			width: 100%;
+            height: auto;
 		}
 
 		.image.left {
@@ -1737,6 +1741,7 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
+                height: auto;
 			}
 
 /* Lists */
@@ -2491,7 +2496,7 @@ input, select, textarea {
 		padding: 5em 0em 4em 0em;
 		background: #56c9d6;
 		text-align: center;
-		color: #FFF;
+		color: #333131;
 	}
 
 		#intro p {
@@ -2501,7 +2506,7 @@ input, select, textarea {
 		}
 
 		#intro header h2 {
-			color: #FFF;
+			color: #333131;
 		}
 
 		#intro .content {
