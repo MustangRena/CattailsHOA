@@ -60,7 +60,12 @@
 					<div class="container">
 						<section>
 							<header>
-								<a><img src="images/entrance.webp" width="1920" height="1080" alt="Entrance sign" loading="lazy"></a>
+								<picture>
+                                    <source srcset="(min-width: 1200px)" srcset="images/entrance_large.webp" type="image/webp">
+                                    <source srcset="(min-width: 800px)" srcset="images/entrance_medium.webp" type="image/webp">
+                                    <img src="images/entrance-small.webp" alt="Entrance sign" width="300" height="200" 
+                                    loading="lazy" decoding="async">
+                                </picture>
 							</header>
 							<!--<a href="#" class="button">Learn More</a>-->
 						</section>

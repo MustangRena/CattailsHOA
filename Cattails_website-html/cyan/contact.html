@@ -57,7 +57,12 @@
 					<div class="container">
 						<section>
 							<header>
-								<a><img src="images/windstone.webp" alt="Windstone sign" width="1920" height="1080" loading="lazy"></a>
+								<picture>
+                                    <source media="(min-width: 1200px)" srcset="images/windstone_large.webp" type="image/webp">
+                                    <source media="(min-width: 800px)" srcset="images/windstone_mediuml.webp" type="image/webp">
+                                    <img src="images/windstone_small.webp" alt="Windstone sign" width="300" height="200" 
+                                    loading="lazy" decoding="async">
+                                </picture>
 							</header>
 							<!--<a href="#" class="button">Learn More</a>-->
 						</section>
