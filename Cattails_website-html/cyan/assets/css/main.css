@@ -1703,24 +1703,25 @@ input, select, textarea {
 /* Images */
 
 	.image {
-		display: inline-block;
-	}
+		font-style: italic;
+        max-width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 		.image img {
-			display: block;
 			width: 100%;
             height: auto;
 		}
 
 		.image.featured {
-			display: block;
 			width: 100%;
             height: auto;
 			margin: 0 0 2em 0;
 		}
 
 		.image.full {
-			display: block;
 			width: 100%;
             height: auto;
 		}
@@ -1731,7 +1732,6 @@ input, select, textarea {
 		}
 
 		.image.centered {
-			display: block;
 			margin: 0 0 2em 0;
 		}
 
